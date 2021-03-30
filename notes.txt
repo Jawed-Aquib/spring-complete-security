@@ -85,3 +85,8 @@ auth
                 .passwordCompare()
                 .passwordEncoder(passwordEncoder())
                 .passwordAttribute("userPassword");
+
+
+                User creds
+                bryan pass
+                aquib password

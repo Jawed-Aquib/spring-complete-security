@@ -10,7 +10,10 @@
     <meta name="description" content="">
     <title>Login</title>
     <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+    <link href="<c:url value="/assets/css/bootstrap.min.css" />" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <meta name="theme-color" content="#563d7c">
 
@@ -34,6 +37,7 @@
 <body>
 <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
     <a class="navbar-brand" href="#">Get Started</a>
+    <a class="navbar-brand" href="account">Create Account</a>
 </nav>
 
 <div class="container">

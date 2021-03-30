@@ -27,7 +27,17 @@ objectclass: inetOrgPerson
 cn: Bryan Hansen
 sn: Hansen
 uid: bryan
-userPassword: $2a$10$zolX3Nlol5ATAVAQd1bAfOovObo16D8evYjsMJvhErppR6aWofTw2
+userPassword: $2a$10$QlxHpp5AhHRZgCHzEdyFwO/Vvxvk.Z5VhABe0UWrbj9aQTNS8FsNe
+
+dn: uid=aquib,ou=people,dc=pluralsight,dc=com
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Aquib Jawed
+sn: Jawed
+uid: aquib
+userPassword: $2a$10$zyY7r3PasuZxlAE6ZfooTuTyt.kuSZAyP3C0w83kDfyl4N126Sd12
 
 dn: cn=developers,ou=groups,dc=pluralsight,dc=com
 objectclass: top
